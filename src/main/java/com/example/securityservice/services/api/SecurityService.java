@@ -2,8 +2,10 @@ package com.example.securityservice.services.api;
 
 import com.example.securityservice.domain.Security;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface SecurityService {
-    List<Security> getAllSecurities();
+    Collection<Security> getAllSecurities();
+
+    Security getSecurityByTicker(String ticker);
 }
