@@ -13,9 +13,9 @@ public class SecurityServiceImpl implements SecurityService {
     Map<String, Security> securities = new HashMap<>();
 
     public SecurityServiceImpl() {
-        securities.put("TDDD123", new Security("T123", "SED123", "Apple Inc."));
-        securities.put("TDDD345", new Security("T345", "SED345", "Alphabet"));
-        securities.put("TDDD678", new Security("TI678", "SED678", "IBM"));
+        securities.put("TDDD123", new Security("TDDD123", "SED123", "Apple Inc."));
+        securities.put("TDDD345", new Security("TDDD345", "SED345", "Alphabet"));
+        securities.put("TDDD678", new Security("TDDD678", "SED678", "IBM"));
     }
 
     @Override
